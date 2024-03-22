@@ -1,6 +1,6 @@
 # useEffect
 
-- ## use_state 함수
+- ## useState 함수
     ```javascript
         const [count, setCount] = useState(0); 
     ```
@@ -10,7 +10,7 @@
 
 <br>
 
-- ## use_effect 함수
+- ## useEffect 함수
     - #### 컴포넌트가 렌더링 이후에 어떤 일을 수행할지 알려주는 역할을 함
 
     - #### useEffect(수행할 함수, 배열)
