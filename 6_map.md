@@ -107,3 +107,7 @@
         <br>
 
         ![image](https://github.com/Project-Division/about_react/assets/68108664/a4d07595-d805-47e5-a49e-092847afa130)
+
+<br>
+
+<p align="center"><img src="https://github.com/Project-Division/about_react/assets/68108664/6b09b49e-8066-4993-b141-0fea8da9cdd1" width="800px"></p>
