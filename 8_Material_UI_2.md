@@ -189,26 +189,26 @@
 
 - ### Snackbar 생성을 위한 버튼 추가
 
-```javascript
-const Button_3 = () => {
-    const [is_enabled, set_enabled] = React.useState(true);
+    ```javascript
+    const Button_3 = () => {
+        const [is_enabled, set_enabled] = React.useState(true);
 
-    const btn_event = () => {
-        set_enabled(false);
+        const btn_event = () => {
+            set_enabled(false);
 
-        set_snackbar_status({
-            is_displaying: true,
-            caller_btn_enabler: () => {
-                set_enabled(true);
-            }
-        });
-    };
+            set_snackbar_status({
+                is_displaying: true,
+                caller_btn_enabler: () => {
+                    set_enabled(true);
+                }
+            });
+        };
 
-    return (
-        <Button variant="outlined" color="error" style={button_style} onClick={btn_event} disabled={!is_enabled}>SNACKBAR</Button>
-    );
-}
-```
+        return (
+            <Button variant="outlined" color="error" style={button_style} onClick={btn_event} disabled={!is_enabled}>SNACKBAR</Button>
+        );
+    }
+    ```
 
 <br>
 
