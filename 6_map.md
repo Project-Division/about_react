@@ -111,3 +111,25 @@
 <br>
 
 <p align="center"><img src="https://github.com/Project-Division/about_react/assets/68108664/6b09b49e-8066-4993-b141-0fea8da9cdd1" width="800px"></p>
+
+---
+<br><br>
+
+# 주의
+
+- ### Warning : Each Child in a list should have a unique "key" prop.
+
+    ```
+    React는 key prop을 사용하여 컴포넌트와 DOM 요소 간의 관계를 생성한다. 리액트 라이브러리는 이 관계를 이용해 컴포넌트 리렌더링 여부를 결정한다. 불필요한 리렌더링을 방지하기 위해서는 각 자식 컴포넌트마다 독립적인 key값을 넣어줘야 한다.
+    ```
+
+    - ### Example
+        #### Component의 key prop으로 다른 컴포넌트와 구별할 수 있는 유일한 값 사용
+
+        ```javascript
+        {data_obj.map((item) => (
+            <Card_Item item_info={item} key={item["prod_code"]}/>
+        ))}
+        ```
+
+        
